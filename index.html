@@ -6,8 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello world</h1>
-    <canvas id="canvas"></canvas>
+    <h1>Inverse Kinematics Demo (FABRIK)</h1>
+    <h2>unfixed base</h2>
+    <canvas id="canvas1" onmousemove = "cursorMoved(event)"></canvas>
+    <h2>fixed base</h2>
+    <canvas id="canvas2" onmousemove = "cursorMoved2(event)"></canvas>
+    <h2>inverse kinematics demo other than robotic arm (leg placement)</h2>
+    <canvas id="canvas3" onmousemove = "cursorMoved3(event)"></canvas>
+    
 </body>
-<script src="main.js"> </script>
+<script src="canvas.js"> </script>
 </html>
